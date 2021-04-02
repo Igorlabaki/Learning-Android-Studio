@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saiba a melhor opcao de abastecimento do seu carro" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preco do alcool:" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="356dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/precoAlcool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Por Exemplo: 4.45"
+            android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preco Gasolina:" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="362dp"
+        android:layout_height="57dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/precoGasolina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Por Exemplo: 4.50"
+            android:inputType="numberDecimal" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="calcular"
+        android:text="Calcular"
+        app:backgroundTint="@color/purple_700" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppNoticias</string>
+    <string name="titulo">Aprenda sobre ediçao de imagens</string>
+    <string name="autor">Igor Goncalo</string>
+    <string name="texto">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum
+        tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres
+        de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a
+        tipografia electrónica, mantendo-se essencialmente inalterada. </string>
+</resources>

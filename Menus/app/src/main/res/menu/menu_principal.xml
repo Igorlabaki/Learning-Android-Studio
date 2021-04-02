@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Salvar"
+        android:id="@+id/itemSalvar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_save_24"
+        />
+    <item
+        android:title="Editar"
+        android:id="@+id/itemEditar"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+    <item
+        android:title="Configuracao"
+        android:id="@+id/itemConfiguracao"
+        android:orderInCategory="200"
+        app:showAsAction="never
+"/>
+
+</menu>

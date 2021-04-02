@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFCC6"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Digite suas anotacoes"
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:singleLine="false" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
