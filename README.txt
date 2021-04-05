@@ -1,1 +1,3 @@
-Meus projetos durante o apredizado no ANDROIDSTUDIO
+Meus projetos desenvolvidos durante o apredizado na ferramenta Android Studio.
+
+My projects learning how to use Android Studio.
